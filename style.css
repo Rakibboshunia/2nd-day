@@ -6,7 +6,8 @@
 }
 
 /*Header section*/
-.header{
+.header
+{
     position: fixed;
     top: 0;
     left: 0;
@@ -18,7 +19,8 @@
     z-index: 100;
 }
 
-.logo{
+.logo
+{
     position: relative;
     font-size: 25px;
     font-weight: 600;
@@ -26,7 +28,8 @@
     text-decoration: none;
 }
 
-.navber a{
+.navber a
+{
     font-size: 18px;
     color: white;
     text-decoration: none;
@@ -36,12 +39,14 @@
 }
 
 .navber a:hover,
-.navber a.active{
+.navber a.active
+{
     color: blueviolet;
 }
 
 /*Home section*/
-.home{
+.home
+{
     height: 100vh;
     background: url(./blog/blog3.jpg) no-repeat;
     background-size: cover;
@@ -52,20 +57,24 @@
     border-radius: 20px;
 }
 
-.home-content{
+.home-content
+{
     max-width: 600px;
 }
 
-.home-content h5{
+.home-content h5
+{
     color: white;
 }
 
-.home-content h1{
+.home-content h1
+{
     color: white;
     font-size: 60px;
 }
 
-.home-content .btn-box{
+.home-content .btn-box
+{
     position: relative;
     display: flex;
     justify-content: center;
@@ -74,18 +83,21 @@
     font-size: 25px;
 }
 
-.btn-box{
+.btn-box
+{
     display: flex;
     align-items: center;
     border: 5px solid rgba(0, 0, 0, 0.87);
     border-radius: 10px;
 }
-.btn-box a{
+.btn-box a
+{
     color: rgb(255, 255, 255);
 }
 
 /*Blog section*/
-#blog{
+#blog
+{
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.7);
@@ -93,7 +105,8 @@
     padding: 20px;
     border-radius: 20px;
 }
-.blog h1{
+.blog h1
+{
     display: flex;
     justify-content: center;
     font-size: 50px;
@@ -106,12 +119,14 @@
     margin: 15px;
     border-radius: 10px;
 }
-.blog img:hover{
+.blog img:hover
+{
     opacity: .7;
 }
 
 /*Menu section*/
-#cafe{
+#cafe
+{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,26 +134,30 @@
     border-radius: 20px;
 }
 
-#cafe h1{
+#cafe h1
+{
     display: flex;
     justify-content: center;
     font-size: 50px;
     color: white;
     margin: 30px;
 }
-.cafe{
+.cafe
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
     padding: 20px;
 }
-.cafe img{
+.cafe img
+{
     width: 400px;
     height: 280px;
     margin: 15px;
     border-radius: 10px;
 }
- .cafe img:hover{
+ .cafe img:hover
+{
     opacity: .7;
- }
+}
